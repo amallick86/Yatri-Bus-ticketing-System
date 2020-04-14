@@ -1,0 +1,231 @@
+html,body{
+    font-family: Helvetica;
+    margin: 0px;    
+}
+
+.divbox{
+    background: #1d19bd;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,.9);
+    color: white;
+    padding: 20px;
+    position: absolute;
+    margin: 0px;
+    top: 22.8%;
+    left: 13.5%;
+    width: 72.2%;
+    height: 105%;
+}
+
+
+#logologin a {
+	float: left;
+    font-size: .7em;
+    display: initial;
+    margin: 0;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 0px 0;
+    border: none;
+}
+span.fa.fa-free-code-camp {
+    color: #f4b200;
+    font-weight: bold;
+}
+/*new*/
+section#putlogo1{
+    background: #C8C8C8;
+	
+}
+
+#log1 {
+    float: right;
+    width: 330px;
+    height: 100px;
+	 box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+.divBox a{
+    
+    text-decoration: none;
+    color: white;
+}
+
+.divBox a:hover{
+    opacity: .7;
+}
+
+.insider{
+    width: 40%;
+    height: 40%;
+    margin-top: 5%;
+    padding: 4%;
+    padding-top: 10%;
+    text-align: center;
+    cursor: pointer;    
+}
+
+#loginAdmin:hover, #loginUser:hover, #createAdmin:hover, #createUser:hover, #backLogin:hover, #backCreate:hover, #closeDiv:hover{
+    opacity: .7;
+}
+
+#login{
+    visibility: visible;
+}
+
+#backLogin{
+    position: absolute; 
+    top:3.5%; 
+    left: 2%;
+    cursor: pointer;
+}
+
+#closeDiv{
+    position: absolute; 
+    top: 3.5%; 
+    left: 96%;
+    cursor: pointer;
+}
+
+#loginAdmin{
+    position: absolute;
+    top: 12%;
+    display: inline-block;
+    visibility: visible;    
+}
+
+#loginUser{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    display: inline-block;
+    visibility: visible;
+}
+
+#slideAdminLogin{
+    cursor: default;
+    visibility: hidden;
+    display: inline-block;
+    background: #1d19bd;
+    overflow: hidden;
+    width: 0%;    
+    position: absolute;
+    top: 12%;
+    left: 50%;
+	height:70%	
+}
+
+#slideUserLogin{
+    cursor: default;
+    visibility: hidden;
+    display: inline-block;
+    background: #1d19bd;
+    overflow: hidden;
+    width: 0%;    
+    position: absolute;
+    top: 12%;
+    left: 0%;
+	height:70%;	
+} 
+
+#createAcc{
+    visibility: visible;
+}
+
+#backCreate{
+    position: absolute; 
+    top:45px; 
+    left: 8%;
+    cursor: pointer;
+}
+
+
+#createAdmin{
+    position: absolute;
+    top: 12%;
+    display: inline-block;
+    
+}
+
+#createUser{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    display: inline-block;
+}
+
+#adminLogin{
+    position: absolute;
+    display: inline-block;
+    cursor: default;
+    text-align: justify;    
+}
+
+#username{
+    padding: 5px;
+    margin: 10px;
+}
+
+#password{
+    padding: 5px;
+    margin: 10px;
+}
+
+#slideAdminCreate, #slideUserCreate{
+	width: 80%;
+    height: 55%;
+    margin: 0px;
+    cursor: default;
+    padding-top: 0;
+    visibility: hidden;
+    display: inline-block;
+    background: #1d19bd;
+    overflow: hidden; 
+    text-align: left;
+    position: absolute;
+    padding: 3%;
+    padding-left: 5%;
+    opacity: 0;
+	height : 90%;
+}
+
+.tableRow{
+    width: 100%;
+}
+
+.tableColumn1{
+    display: inline-block;
+    width: 150px;
+}
+
+.tableColumn2{
+    display: inline-block;
+}
+
+#slideUserCreate input,#slideAdminCreate input{
+    margin: 10px;
+}
+
+.signupButton{
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.footerdiv{
+     cursor: pointer;
+    position: absolute;
+    top: 3%;
+    left: 10%;
+}
+.fooder:hover{
+	color:#66e8ff;
+}
+
+
+
+

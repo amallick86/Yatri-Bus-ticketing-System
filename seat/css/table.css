@@ -1,0 +1,143 @@
+
+    
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  height: 10px;
+  padding: 10px; /* Some padding */  
+  border: 0.5px solid blue; /* Blue border */
+  border-radius: 1px; /* Rectangular borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 4px; /* Add a top margin */
+  margin-bottom: 12px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=button] {
+  background-color: #yellow; /* Navy blue color */
+  color:yellow;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+    position: absolute;
+    left:1010px;
+  
+}
+
+/* When moving the mouse over the submit button, add a darker navy color */
+input[type=submit]:hover {
+  background-color: #02075D;
+}
+
+/* Add a background color and some padding around the form */
+.ticket {
+	position:absolute;
+	left:350px;
+	top: 80px;
+ border: 2px solid red;
+  border-radius: 5px;
+  padding-left:30px;
+  padding-bottom:10px;
+   border-width: 33%; 
+ 
+}
+
+#yatri{
+
+    color: #000080;
+    font-size:70px;
+  
+    font-family: Colonna MT;
+    font-weight:  strong;
+  }
+#cmp{
+	font-size:30px;
+	font-weight:  strong;
+	position:relative;
+	left:180px;
+	bottom:80px;
+}
+#date{
+  width: 125px;
+}
+
+#date-text{
+
+  /*text-align:right;*/
+  position: relative;
+  left:540px;
+  bottom: 115px;
+  }
+
+#bus_no{
+  width: 100px;
+}
+
+#bus-text{
+  position: relative;
+  left: 135px;
+  bottom: 80px;
+}
+
+#Ticket_no{
+  width: 100px;
+}
+
+#ticket-no {
+    position: relative;
+    left: 395px;
+    bottom: 117px;
+}
+#table{
+	position:relative;
+	top:-80px;
+}
+
+#from{
+width:295px;
+
+}
+
+#to{
+width:260px;
+}
+
+
+
+#name{
+  width: 213%;
+  
+}
+#phone{
+	width:213%;
+}
+#address{
+  width: 213%;
+}
+
+.btn{
+	border-radius: 12px;
+	color:white;
+	
+	
+}
+#home{
+background-color:lightblue;
+}
+#home:hover{
+	color:white;
+	background-color:green;
+}
+#pdf{
+	position:relative;
+	left:600px;
+	bottom:40px;
+	background-color:lightgreen;
+}
+#pdf:hover{
+	color:white;
+	background-color:blue;
+}

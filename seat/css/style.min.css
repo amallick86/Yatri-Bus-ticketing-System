@@ -1,0 +1,41 @@
+.btn{
+	
+	left:240px;
+	border-radius: 12px;
+}
+.md-form{
+	width:90%;
+}
+.md-form
+{
+	width:90%;
+}
+
+.custom-select{
+	width:90%;
+}
+.seat{
+	width:30%;
+	
+}
+.seat-pos{
+   position: absolute;
+   top: 30px;
+  left: 500px;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding-left:30px;
+  padding-bottom:10px;
+   border-width: 30%; 
+}
+.title{
+	padding-top:10px;
+	padding-left:70px;
+	Color:Lightblue;
+}
+
+
+
+
+
+  

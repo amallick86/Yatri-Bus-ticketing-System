@@ -1,0 +1,109 @@
+#bus{
+
+    
+    width:240px;
+    height:500px;
+    margin-left:500px;
+}
+
+#cabin-A{
+    width: 120px;
+    height:128px;
+    background-color:#d4c5c5;
+    position:relative;
+    left:0px;
+
+}
+
+#cabin-B{
+position:relative;
+left:120px;
+top:-25px;
+width:116px;
+height:25px;
+background-color:#a29c9b;
+}
+
+
+#trunk-A{
+    background-color: #d2d255;
+    width: 120px;
+    height: 254px;
+    position: relative;
+    left: 0px;
+    top: 40px;
+}
+
+
+
+#trunk-B {
+    width: 117px;
+    height: 290px;
+    position: relative;
+    background-color: #6dd06e;
+    left: 119px;
+    top: -253px;
+}
+
+
+
+#total-cabin {
+    border: 2px solid black;
+    background-color: lightgrey;
+    width: 236px;
+    height: 128px;
+}
+
+#total-trunk {
+    background-color: lightgreen;
+    width: 236px;
+    height: 317px;
+    border:2px solid brown;
+}
+
+#heading{
+
+
+    position:relative;
+    left:0px;
+    background-color:blue;
+    text-align:center;
+    font-size:35px;
+    color:white;
+}
+
+
+#lower-form{
+
+   
+    margin-left:40px;
+
+}
+
+#lower-form #name{
+
+    background-color:lightgrey;
+
+}
+
+#lower-form #bus-no{
+
+    background-color:lightgrey;
+
+
+}
+#button{
+
+    background-color:orange;
+    color:white;
+}
+
+.form{
+
+    background-color:lightgrey;
+}
+
+.label{
+    color:white;
+    background-color:blue;
+}
